@@ -1,0 +1,85 @@
+﻿@model HardWorkSegurosWebSite.Models.EmailFormModel
+@{
+    ViewBag.Title = "Contato";
+}
+
+
+<div id="myCarousel" class="carouselPages slide">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="contact-img"></div>
+            <div class="carousel-caption-pages">
+                <h1>Contato</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+            <small>Nós queremos ouvir você</small></h1>
+            <ol class="breadcrumb">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li class="active">Contato</li>
+            </ol>
+        </div>
+        <div class="col-lg-12">
+            <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+            <iframe width="100%" scrolling="no" height="400px" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14626.750486772746!2d-46.592612870463064!3d-23.579660104779165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c0fdefc2d8d%3A0x3d63aaeef542076f!2sVila+Prudente%2C+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo!5e0!3m2!1sen!2sbr!4v1555713181602!5m2!1sen!2sbr" marginwidth="0" marginheight="0"></iframe>
+        </div>
+    </div><!-- /.row -->
+    <div class="row">
+        <div class="col-sm-8">
+            <h3>Entre em contato</h3>
+            <p>Entre em contato preenchendo o formulário abaixo com a sua mensagem, responderemos o mais rápido possível!</p>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                <div class="row">
+                    <div class="form-group col-lg-4">
+                        @Html.LabelFor(m => m.FromName)
+                        @Html.TextBoxFor(m => m.FromName, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.FromName)
+                    </div>
+                    <div class="form-group col-lg-4">
+                        @Html.LabelFor(m => m.FromEmail)
+                        @Html.TextBoxFor(m => m.FromEmail, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.FromEmail)
+                    </div>
+                    <div class="form-group col-lg-4">
+                        @Html.LabelFor(m => m.Celular)
+                        @Html.TextBoxFor(m => m.Celular, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Celular)
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="form-group col-lg-12">
+                        @Html.LabelFor(m => m.Message)
+                        @Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Message)
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <input type="hidden" value="contact" name="save">
+                        <button class="btn btn-primary" type="submit" value="Send">Enviar</button>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label>@ViewBag.EmailReturn</label>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="col-sm-4">
+            <h3>Outros meios de contato</h3>
+            <p>
+                Vila Prudente, São Paulo - SP.<br>
+                Brasil.<br>
+            </p>
+            <p><i class="fa fa-phone"></i> <abbr title="Celular">C</abbr>: (11) 94749-1997</p>
+            <p><i class="fa fa-phone"></i> <abbr title="Fixo">F</abbr>: (11) 2345-9595</p>
+            <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:mailto:seguros@hardworkbr.com">seguros@hardworkbr.com</a></p>
+            <p><i class="fa fa-clock-o"></i> <abbr title="Horas">H</abbr>: Segunda - Sexta: 9:00 às 17:00</p>
+        </div>
+    </div><!-- /.row -->
+</div>

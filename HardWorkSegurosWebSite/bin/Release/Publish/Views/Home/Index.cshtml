@@ -1,0 +1,117 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+<div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill" style="background-image:url('https://www.lawdonut.co.uk/sites/default/files/selling-a-business-476538844.jpg');"></div>
+            <div class="carousel-caption">
+                <h1>Plano de Saúde a partir de 50 reais?</h1>
+            </div>
+            <div class="btn-banner">
+                @Html.ActionLink("Fazer o meu", "Index", new { controller = "Cotacoes" }, new { @class = "btn btn-lg btn-primary pull-right" })
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('https://oliveiracastrocontabil.com.br/wp-content/uploads/2016/07/foto_contrato.jpg');"></div>
+            <div class="carousel-caption">
+                <h1>Seguro Auto com valor menor que 5% do valor do veículo?</h1>
+            </div>
+            <div class="btn-banner">
+                @Html.ActionLink("Fazer o meu", "Index", new { controller = "Cotacoes" }, new { @class = "btn btn-lg btn-primary pull-right" })
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('https://multidiesel.com.br/wp-content/uploads/2019/02/geradores-de-energia-para-empresa.jpg');"></div>
+            <div class="carousel-caption">
+                <h1>Nossa empresa foca na qualidade de prestação de serviço.</h1>
+            </div>
+            <div class="btn-banner">
+                @Html.ActionLink("Conhecer mais", "Index", new { controller = "QuemSomos" }, new { @class = "btn btn-lg btn-primary pull-right" })
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+
+<div class="section-colored text-center">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Our Customers -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Seguradoras Parceiras</h2>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/d/d0/Bradesco_logo.png" class="img-responsive img-customer">
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <img src="https://seeklogo.com/images/P/porto-seguro-novo-logo-444639E178-seeklogo.com.png" style="width: 70%; height: 70%;" class="img-responsive img-customer">
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <img src="http://contactlifeseguros.com/wp-content/uploads/2016/02/allianz-350x350.png" class="img-responsive img-customer">
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <img src="https://ibramerc.liveuniversity.com/wp-content/uploads/sites/4/SulAmerica-Saude-Logo-450x245.png" class="img-responsive img-customer">
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mapfre_logo.svg/149px-Mapfre_logo.svg.png" class="img-responsive img-customer">
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Zurich_Logo_new.svg/741px-Zurich_Logo_new.svg.png" class="img-responsive img-customer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.section-colored -->
+
+<div class="container" style="padding-top: 30px;">
+
+    <div class="row well">
+        <div class="col-lg-8 col-md-8">
+            <h4>Temos o produto ideal para sua necessidade:</h4>
+            <p>
+                <ul>
+                    <li>Plano de Saúde (Individual/Adesão/Empresas/MEI)</li>
+                    <li>Seguro de Vida</li>
+                    <li>Seguro Viagem</li>
+                    <li>Seguro Auto/Frota</li>
+                    <li>Previdência Privada</li>
+                    <li>Assistência Funeral</li>
+                    <li>Seguro Residencial</li>
+                    <li>Entre outros...</li>
+                </ul>
+            </p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            @Html.ActionLink("Conheça mais", "Index", new { controller = "Servicos" }, new { @class = "btn btn-lg btn-primary pull-right" })
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->

@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Quem Somos";
+}
+
+<div id="myCarousel" class="carouselPages slide">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="about-img"></div>
+            <div class="carousel-caption-pages">
+                <h1>Quem Somos</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                <small>Conheça nossa empresa</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li class="active">Quem Somos</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://images.unsplash.com/photo-1462899006636-339e08d1844e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+            <h2>HardWork Seguros</h2>
+            <p>Somos uma empresa de seguros com experiência no mercado, agindo com responsabilidade e transparência.</p>
+            <p>Nossa longa experiência no mercado de seguros é apoiada por uma equipe técnica altamente qualificada e que conta com rigorosos padrões de qualidade.</p>
+            <p>Acreditamos que um uma vida e um bem material deve ser protegido e resguardado com seriedade, dedicação e segurança, e, por isso, trabalhamos com ética e diligência para entregar o que você deseja.</p>
+        </div>
+    </div>
+</div>
