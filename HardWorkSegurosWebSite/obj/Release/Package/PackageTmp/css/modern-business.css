@@ -74,7 +74,7 @@ body {
 }
 
 .about-img {
-    background-image: url('https://jornaldoempreendedor.com.br/wp-content/uploads/2018/01/team-huddle.jpg');
+    background-image: url('../img/quem-somos.jpg');
     width: 100%;
     height: 100%;
     background-position: bottom;
@@ -85,7 +85,7 @@ body {
 }
 
 .services-img {
-    background-image: url('https://nobeadvogados.com.br/wp-content/uploads/2017/09/PJ.jpg');
+    background-image: url('../img/servicos.jpg');
     width: 100%;
     height: 100%;
     background-position: bottom;
@@ -96,7 +96,7 @@ body {
 }
 
 .contact-img {
-    background-image: url('https://www.casablancaturismo.com.br/2017/wp-content/uploads/2017/08/shutterstock_379989589.jpg');
+    background-image: url('../img/contato.jpg');
     width: 100%;
     height: 100%;
     background-position: center;
@@ -107,7 +107,7 @@ body {
 }
 
 .cotacoes-img {
-    background-image: url('https://cdn.pixabay.com/photo/2018/02/20/10/28/business-3167295_1280.jpg');
+    background-image: url('../img/cotacoes.jpg');
     width: 100%;
     height: 100%;
     background-position: bottom;

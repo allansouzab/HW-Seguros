@@ -31,9 +31,9 @@ namespace HardWorkSegurosWebSite.Controllers
             {
                 var body = GetEmailBody(model);
                 var message = new MailMessage();
-                message.To.Add(new MailAddress("seguros@hardworkbr.com"));  // replace with valid value 
+                message.To.Add(new MailAddress("seguros@hardworkbr.com.br"));  // replace with valid value 
                 //message.To.Add(new MailAddress("allansouzab@hotmail.com"));  // replace with valid value 
-                message.From = new MailAddress("websitehardwork@hotmail.com");  // replace with valid value
+                message.From = new MailAddress("WebsiteHardWork@hotmail.com");  // replace with valid value
                 message.Subject = string.Format("HardWork Seguros - Cotação de {0}", model.Plano);
                 message.Body = body;
                 message.IsBodyHtml = true;
@@ -42,10 +42,10 @@ namespace HardWorkSegurosWebSite.Controllers
                 {
                     var credential = new NetworkCredential
                     {
-                        UserName = "websitehardwork@hotmail.com",  // replace with valid value
+                        UserName = "WebsiteHardWork@hotmail.com",  // replace with valid value
                         Password = "All@n1souza2"  // replace with valid value
                     };
-                    smtp.Host = "smtp-mail.outlook.com";
+                    smtp.Host = "smtp.live.com";
                     smtp.Port = 587;
                     smtp.EnableSsl = true;
                     smtp.Credentials = credential;

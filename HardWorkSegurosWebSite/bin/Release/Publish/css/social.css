@@ -8,79 +8,85 @@
         list-style: none;
     }
 
-    .social ul li div {
-        background: #222;
-        border-radius: 50%;
-        float: left;
-        height: 50px;
-        list-style: none;
-        margin: 0 10px;
-        width: 50px;
-    }
-
-        .social ul li div a {
-            width: 100%;
-            height: 100%;
+        .social ul li div {
+            background: #222;
+            border-radius: 50%;
+            float: left;
+            height: 50px;
+            list-style: none;
+            margin: 0 10px;
+            width: 50px;
         }
 
-        .social ul li div:before {
-            font: 400 1em/50px "FontAwesome";
+            .social ul li div a {
+                width: 100%;
+                height: 100%;
+            }
+
+            .social ul li div:before {
+                font: 400 1em/50px "FontAwesome";
+            }
+
+            .social ul li div:hover {
+                animation: transform 0.5s forwards, shadow 1s forwards;
+                -ms-animation: transform 0.5s forwards, shadow 1s forwards;
+                -moz-animation: transform 0.5s forwards, shadow 1s forwards;
+                -webkit-animation: transform 0.5s forwards, shadow 1s forwards;
+            }
+
+        .social ul li .facebook:hover {
+            background: #3b5998;
         }
 
-        .social ul li div:hover {
-            animation: transform 0.5s forwards, shadow 1s forwards;
-            -ms-animation: transform 0.5s forwards, shadow 1s forwards;
-            -moz-animation: transform 0.5s forwards, shadow 1s forwards;
-            -webkit-animation: transform 0.5s forwards, shadow 1s forwards;
+        .social ul li .facebook:before {
+            color: #fff;
+            content: "\f09a";
+            display: block;
+            line-height: 50px;
+            text-align: center;
         }
 
-    .social ul li .facebook:hover {
-        background: #3b5998;
-    }
+        .social ul li .twitter:hover {
+            background: #00aced;
+        }
 
-    .social ul li .facebook:before {
-        color: #fff;
-        content: "\f09a";
-        display: block;
-        line-height: 50px;
-        text-align: center;
-    }
+        .social ul li .twitter:before {
+            color: #fff;
+            content: "\f099";
+            display: block;
+            line-height: 50px;
+            text-align: center;
+        }
 
-    .social ul li .twitter:hover {
-        background: #00aced;
-    }
+        .social ul li .google:hover {
+            background: #dd4b39;
+        }
 
-    .social ul li .twitter:before {
-        color: #fff;
-        content: "\f099";
-        display: block;
-        line-height: 50px;
-        text-align: center;
-    }
+        .social ul li .google:before {
+            color: #fff;
+            content: "\f0d5";
+            display: block;
+            line-height: 50px;
+            text-align: center;
+        }
 
-    .social ul li .google:hover {
-        background: #dd4b39;
-    }
+        .social ul li .instagram:hover {
+            background: #517fa4;
+        }
 
-    .social ul li .google:before {
-        color: #fff;
-        content: "\f0d5";
-        display: block;
-        line-height: 50px;
-        text-align: center;
-    }
+        .social ul li .instagram:before {
+            color: #fff;
+            content: "\f16d";
+            display: block;
+            line-height: 50px;
+            text-align: center;
+        }
 
-    .social ul li .instagram:hover {
-        background: #517fa4;
-    }
-
-    .social ul li .instagram:before {
-        color: #fff;
-        content: "\f16d";
-        display: block;
-        line-height: 50px;
-        text-align: center;
-    }
+        .social ul li .disabled {
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.5;
+        }
 
 @-webkit-keyframes transform {
     from {

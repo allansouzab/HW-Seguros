@@ -11,91 +11,91 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>02/22/2013 08:43:40</publishTime>
+      <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>02/22/2013 08:43:40</publishTime>
+      <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>09/11/2013 09:10:04</publishTime>
+      <publishTime>10/23/2017 13:15:18</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>09/11/2013 09:10:04</publishTime>
+      <publishTime>10/23/2017 13:15:20</publishTime>
     </File>
     <File Include="bin/HardWorkSegurosWebSite.dll">
-      <publishTime>06/06/2019 23:38:05</publishTime>
+      <publishTime>07/06/2019 18:41:03</publishTime>
     </File>
     <File Include="bin/HardWorkSegurosWebSite.pdb">
-      <publishTime>06/06/2019 23:38:05</publishTime>
+      <publishTime>07/06/2019 18:41:03</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
-      <publishTime>09/11/2013 02:09:50</publishTime>
+      <publishTime>04/24/2018 12:47:38</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
-      <publishTime>09/11/2013 02:09:50</publishTime>
+      <publishTime>04/24/2018 12:47:40</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
-      <publishTime>09/11/2013 02:09:50</publishTime>
+      <publishTime>04/24/2018 12:47:40</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.dll">
-      <publishTime>09/11/2013 01:49:58</publishTime>
+      <publishTime>01/18/2019 20:50:30</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
-      <publishTime>09/11/2013 01:49:56</publishTime>
+      <publishTime>01/18/2019 20:50:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
-      <publishTime>09/11/2013 01:50:00</publishTime>
+      <publishTime>01/18/2019 20:50:30</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.dll">
-      <publishTime>09/11/2013 01:49:58</publishTime>
+      <publishTime>01/18/2019 20:51:10</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
-      <publishTime>09/11/2013 01:50:00</publishTime>
+      <publishTime>01/18/2019 20:50:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Google.dll">
-      <publishTime>09/11/2013 01:50:00</publishTime>
+      <publishTime>01/18/2019 20:50:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
-      <publishTime>09/11/2013 01:50:02</publishTime>
+      <publishTime>01/18/2019 20:50:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
-      <publishTime>09/11/2013 01:50:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
-      <publishTime>09/11/2013 01:50:02</publishTime>
+      <publishTime>01/18/2019 20:50:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>06/06/2013 13:33:54</publishTime>
+      <publishTime>04/22/2019 01:06:16</publishTime>
     </File>
     <File Include="bin/Owin.dll">
       <publishTime>11/13/2012 12:19:34</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>11/28/2018 13:04:24</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>10/01/2013 20:54:22</publishTime>
+      <publishTime>11/28/2018 12:59:46</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>09/04/2013 02:27:04</publishTime>
+      <publishTime>02/11/2014 15:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>10/01/2013 20:54:24</publishTime>
+      <publishTime>11/28/2018 13:00:12</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>11/28/2018 13:04:24</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>11/28/2018 13:04:24</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>11/28/2018 13:04:24</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>07/17/2013 17:03:52</publishTime>
+      <publishTime>01/23/2014 13:57:34</publishTime>
     </File>
     <File Include="css/bootstrap-theme.css">
       <publishTime>04/19/2019 15:49:57</publishTime>
@@ -110,12 +110,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/19/2019 15:49:57</publishTime>
     </File>
     <File Include="css/modern-business.css">
-      <publishTime>04/06/2019 22:06:54</publishTime>
+      <publishTime>06/24/2019 20:24:25</publishTime>
     </File>
     <File Include="css/social.css">
-      <publishTime>04/19/2019 22:15:41</publishTime>
+      <publishTime>07/06/2019 15:48:35</publishTime>
     </File>
     <File Include="favicon.ico">
+      <publishTime>06/24/2019 22:55:04</publishTime>
+    </File>
+    <File Include="favicon_old.ico">
       <publishTime>04/19/2019 15:49:57</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
@@ -142,6 +145,69 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="hw-seguros.jpeg">
       <publishTime>04/20/2019 00:51:56</publishTime>
     </File>
+    <File Include="img/allianz.png">
+      <publishTime>06/24/2019 22:00:19</publishTime>
+    </File>
+    <File Include="img/auto.jpg">
+      <publishTime>06/24/2019 21:59:33</publishTime>
+    </File>
+    <File Include="img/banner1.jpg">
+      <publishTime>06/24/2019 22:01:09</publishTime>
+    </File>
+    <File Include="img/banner2.jpg">
+      <publishTime>06/24/2019 22:01:22</publishTime>
+    </File>
+    <File Include="img/banner3.jpg">
+      <publishTime>06/24/2019 22:01:35</publishTime>
+    </File>
+    <File Include="img/bradesco.png">
+      <publishTime>06/24/2019 22:00:08</publishTime>
+    </File>
+    <File Include="img/contato.jpg">
+      <publishTime>06/24/2019 20:23:51</publishTime>
+    </File>
+    <File Include="img/cotacoes.jpg">
+      <publishTime>06/24/2019 20:18:47</publishTime>
+    </File>
+    <File Include="img/funeral.jpg">
+      <publishTime>06/24/2019 21:59:12</publishTime>
+    </File>
+    <File Include="img/hardwork-quemsomos.jpg">
+      <publishTime>06/24/2019 21:59:58</publishTime>
+    </File>
+    <File Include="img/mapfre.png">
+      <publishTime>06/24/2019 22:00:27</publishTime>
+    </File>
+    <File Include="img/porto-seguro.png">
+      <publishTime>06/24/2019 22:00:13</publishTime>
+    </File>
+    <File Include="img/previdencia.jpg">
+      <publishTime>06/24/2019 21:59:28</publishTime>
+    </File>
+    <File Include="img/quem-somos.jpg">
+      <publishTime>06/24/2019 20:18:17</publishTime>
+    </File>
+    <File Include="img/residencial.jpg">
+      <publishTime>06/24/2019 21:59:07</publishTime>
+    </File>
+    <File Include="img/saude.jpg">
+      <publishTime>06/24/2019 21:59:44</publishTime>
+    </File>
+    <File Include="img/servicos.jpg">
+      <publishTime>06/24/2019 20:18:28</publishTime>
+    </File>
+    <File Include="img/sulamerica.png">
+      <publishTime>06/24/2019 22:00:23</publishTime>
+    </File>
+    <File Include="img/viagem.jpg">
+      <publishTime>06/24/2019 21:59:36</publishTime>
+    </File>
+    <File Include="img/vida.jpg">
+      <publishTime>06/24/2019 21:59:40</publishTime>
+    </File>
+    <File Include="img/zurich.png">
+      <publishTime>06/24/2019 22:00:31</publishTime>
+    </File>
     <File Include="js/bootstrap.js">
       <publishTime>04/19/2019 15:49:57</publishTime>
     </File>
@@ -152,7 +218,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/28/2019 22:24:34</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>02/06/2019 15:43:02</publishTime>
+      <publishTime>06/24/2019 20:44:48</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>06/24/2019 20:56:16</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>06/24/2019 20:56:18</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.js">
+      <publishTime>06/24/2019 20:56:18</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.min.js">
+      <publishTime>06/24/2019 20:56:18</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>06/24/2019 20:56:18</publishTime>
     </File>
     <File Include="Views/Blog/Home1.cshtml">
       <publishTime>04/19/2019 15:50:06</publishTime>
@@ -164,7 +245,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/19/2019 15:50:07</publishTime>
     </File>
     <File Include="Views/Contato/Index.cshtml">
-      <publishTime>06/06/2019 23:27:36</publishTime>
+      <publishTime>07/06/2019 15:53:02</publishTime>
     </File>
     <File Include="Views/Contato/SentNotTrue.cshtml">
       <publishTime>04/19/2019 23:34:53</publishTime>
@@ -176,13 +257,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/06/2019 23:25:44</publishTime>
     </File>
     <File Include="Views/Cotacoes/SentNotTrue.cshtml">
-      <publishTime>04/06/2019 22:39:00</publishTime>
+      <publishTime>06/04/2019 22:39:00</publishTime>
     </File>
     <File Include="Views/Cotacoes/SentTrue.cshtml">
-      <publishTime>04/06/2019 22:39:00</publishTime>
+      <publishTime>06/04/2019 22:39:00</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>04/20/2019 01:46:31</publishTime>
+      <publishTime>06/24/2019 22:04:11</publishTime>
     </File>
     <File Include="Views/Other/Faq.cshtml">
       <publishTime>04/19/2019 15:50:08</publishTime>
@@ -212,16 +293,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/19/2019 15:50:05</publishTime>
     </File>
     <File Include="Views/QuemSomos/Index.cshtml">
-      <publishTime>06/06/2019 23:25:08</publishTime>
+      <publishTime>07/06/2019 15:51:37</publishTime>
     </File>
     <File Include="Views/Servicos/Index.cshtml">
-      <publishTime>06/06/2019 23:34:09</publishTime>
+      <publishTime>06/24/2019 22:07:28</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>04/19/2019 15:49:57</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>06/05/2019 22:08:34</publishTime>
+      <publishTime>07/06/2019 15:50:12</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>04/19/2019 15:49:57</publishTime>
@@ -230,7 +311,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/19/2019 15:49:57</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/06/2019 21:55:14</publishTime>
+      <publishTime>07/06/2019 18:41:11</publishTime>
     </File>
   </ItemGroup>
 </Project>
